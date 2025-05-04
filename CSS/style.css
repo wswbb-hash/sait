@@ -35,7 +35,7 @@ h2 {
 }
 
 .about-us .text-column p {
-    font-size: 1.2rem; /* Adjust as needed.  1.2rem is 1.2 times the root font size */
+    font-size: 1rem; /* Adjust as needed.  1.2rem is 1.2 times the root font size */
     line-height: 1.6; /* Improves readability by adding more space between lines */
 }
 
