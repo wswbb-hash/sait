@@ -23,7 +23,11 @@ header h1 {
     font-size: 1.5em;  /* Adjust size as needed */
     margin-left: 20px;  /* Add spacing between the logo and the text */
 }
-
+header img {
+    height: 80px; /* Adjust the height as necessary */
+    width: auto; /* Keep aspect ratio */
+    /*margin-bottom: 10px; Removed this */
+}
 
 
 
