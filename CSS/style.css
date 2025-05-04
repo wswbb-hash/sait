@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f5f0; /* Light green background */
+    color: #333;
+}
+ /*шапка*/
+header {
+    background-color: #669966;
+    color: white;
+    padding: 20px;
+    /*text-align: center;  Remove this, it will conflict */
+}
+
+.header-content {  /* Style for the wrapper */
+    display: flex;  /* Use flexbox */
+    align-items: center; /* Vertically align */
+    /*justify-content: center;  Optional: centers both horizontally*/
+}
+
+header h1 {
+    margin: 0;  /* Remove default margin on the h1 */
+    font-size: 1.5em;  /* Adjust size as needed */
+    margin-left: 20px;  /* Add spacing between the logo and the text */
+}
+
+header img {
+    height: 80px; /* Adjust the height as necessary */
+    width: auto; /* Keep aspect ratio */
+    /*margin-bottom: 10px; Removed this */
+}
+
+
+
+h2 {
+    color: #336633; /* Another shade of green */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.about-us .text-column p {
+    font-size: 1.2rem; /* Adjust as needed.  1.2rem is 1.2 times the root font size */
+    line-height: 1.6; /* Improves readability by adding more space between lines */
+}
+
+.news-events .grid p{
+    font-size: 1.2rem; /* Adjust as needed.  1.2rem is 1.2 times the root font size */
+    line-height: 1.6;
+}
+
+.help-item ul li {
+    font-size: 1.1rem; /* Adjust as needed */
+    line-height: 1.5; /* Improves readability by adding more space between lines */
+}
+/* General section styling */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #d6e0d6;  /* Even lighter green */
+    border-radius: 5px;
+}
+
+
+  
+/* Layout helpers */
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    gap: 20px;
+    padding: 40px;
+    margin: 20px;
+    background-color: #d6e0d6;
+    border-radius: 5px;
+    align-items: center; /* Vertically center content */
+}
+
+.about-us .text-column {
+    /* Removed flex: 1 as it's not needed with grid */
+    padding: 20px;
+}
+
+.about-us .image-column {
+    display: flex;          /* Use flexbox for centering within image column */
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+}
+
+.about-us .image-column img {
+    max-width: 100%;      /* Image doesn't exceed column width */
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+.about-us .column {
+    flex: 1;  /* Equal width columns */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* Responsive grid */
+    gap: 20px;
+}
+
+.item, .news-item, .help-item, .resource-item {
+    background-color: #c2d6c2; /* Even lighter green */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.help-item ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.resource-item a {
+    display: inline-block;
+    background-color: #336633;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #669966;
+    color: white;
+    text-align: center;  /* Removed */
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;  /* Vertically align all items */
+    justify-content: center; /* Horizontally align all items to the center */
+}
+
+footer img {
+    height: 50px; /* Adjust as needed */
+    width: auto;  /* Keep aspect ratio */
+    margin-right: 10px;  /* Spacing between logo and text */
+}
+
+footer p {
+    margin: 0 10px; /* Spacing on either side of the text paragraphs */
+}
