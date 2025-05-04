@@ -12,21 +12,11 @@ header {
     /*text-align: center;  Remove this, it will conflict */
 }
 
-.header-content {  /* Style for the wrapper */
-    display: flex;  /* Use flexbox */
-    align-items: center; /* Vertically align */
-    /*justify-content: center;  Optional: centers both horizontally*/
-}
 
 header h1 {
     margin: 0;  /* Remove default margin on the h1 */
     font-size: 1.5em;  /* Adjust size as needed */
     margin-left: 20px;  /* Add spacing between the logo and the text */
-}
-header img {
-    height: 80px; /* Adjust the height as necessary */
-    width: auto; /* Keep aspect ratio */
-    /*margin-bottom: 10px; Removed this */
 }
 
 
